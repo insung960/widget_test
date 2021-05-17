@@ -18,7 +18,7 @@ class _PointSettingState extends State<PointSetting> {
 
   @override
   Widget build(BuildContext context) {
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 10000; i++) {
       PointSettingData pSData = PointSettingData();
       pSData.pointName = 'pointName' + (i + 1).toString();
       pSData.tagName = 'pointName' + (i + 1).toString();
